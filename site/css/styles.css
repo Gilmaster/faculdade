@@ -1,0 +1,289 @@
+/* Estilos padões */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px;
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+
+.main-sub-title {
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Barra de menu */
+
+header, .navbar {
+    background-color: rgb(23, 23, 24);
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 55px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+#navbar-links a {
+    color: #fff;
+    text-align: center;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+    text-align: center;
+}
+
+/* Slider carousel */
+
+.container-fluid {
+    padding: 0;
+}
+  
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: 75vh;
+}
+  
+#mainSlider .carousel-caption {
+    top: 30%;
+}
+  
+#mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+  
+#mainSlider .carousel-caption p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #FFF;
+}
+  
+.main-btn {
+    background-color: #65DAF9;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+  
+.main-btn:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: transparent;
+    border-color: #3EC1D5;
+}
+  
+.carousel-indicators .active {
+    background-color: #65DAF9;
+}
+
+/* Apresentação pagina inicial */
+
+#about-area {
+    color: #000;
+}
+
+.main-title {
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 45px;
+    text-align: center;
+}
+
+.about-title {
+    font-size: 20px;
+    color: #000;
+    text-decoration: uppercase;
+    font-weight: bold;
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list i {
+    color: #65DAF9;
+}
+
+/* Informaçoes e serviços roda-pe */
+
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i, .service-box h4 {
+    transition: .5s;
+} 
+
+.service-box i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.service-box {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.service-box:hover > i {
+    color: #65DAF9;
+}
+
+#footer-icon a {
+    color: #000;
+    text-align: center;
+}
+
+#footer-icon:hover > a {
+    color: #65DAF9;
+    text-align: center;
+}
+/* Pagina de Contato */
+
+#about-area-contact {
+    padding: 50px;
+    border: 100px;
+}
+
+#area-contact-img {
+    padding: 10px;
+    border: 100px;
+}
+
+.about-title-contact {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #000;
+    text-decoration: uppercase;
+    font-weight: bold;
+}
+
+#about-list-contact {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list-contact li {
+    line-height: 30px;
+}
+
+#about-list-contact i {
+    color: #000;
+}
+
+#about-area2 {
+    padding: 20px;
+}
+
+#submit-btn {
+   text-align: center;
+}
+
+/* Paginas de produtos */
+
+#about-area-goods {
+    padding: 50px;
+    border: 100px;
+}
+
+#container-area-goods{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#row-area-goods-title {
+    margin-top: 100px;
+}
+
+#area-goods {
+    left: 0%;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+.col-md-6:hover > h4 {
+    color: #65DAF9;
+}
+
+#action-button {
+    padding: 10px;
+} 
+
+/* Carrinho de compras */
+
+#about-area-shopping {
+    padding: 50px;
+    border: 100px;
+}
+
+#container-area-shopping{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#row-area-shopping-title {
+    margin-top: 100px;
+}
+
+#row-area-shopping {
+    margin-top: 30px;
+}
+
+#area-shopping {
+    left: 0%;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+.col-md-6:hover > h4, .col-md-6:hover > p {
+    color: #65DAF9;
+}
+
+#action-button {
+    padding: 10px;
+}
+
+/* estilo de erro do Form testes */
+
+.msg-erro { 
+    color: red; 
+}
+
+
+
