@@ -219,6 +219,7 @@ header, .navbar {
 /* Paginas de produtos */
 
 #about-area-goods {
+    text-align: center;
     padding: 50px;
     border: 100px;
 }

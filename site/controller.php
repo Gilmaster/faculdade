@@ -6,4 +6,5 @@
     $produtos = "SELECT * FROM produtos";
 
     $lista_produtos = mysqli_query($conexao, $produtos);
+
 ?>

@@ -1,6 +1,7 @@
 <?php
     // require_once("controller.php");
     include('head.php');
+    include('footer.php');
 ?>
 
 <!DOCTYPE html>
@@ -109,46 +110,8 @@
                     </form>
                 </div>
             </div>
-            <footer>
-                <div id="about-area">
-                    <div class="container" id="about-area">
-                        <div class="row">
-                            <div class="col-12">
-                                <h5 class="main-sub-title">PlayNet</h5>
-                            </div>
-                            <div class="col-md-4 service-box" id="footer-icon">
-                                <a href="index.html">
-                                    <i class="fa-solid fa-mattress-pillow"></i>
-                                    <h4>Inicio</h4>
-                                </a>
-                                <p>Play Net<br>
-                                    soluções Tecnologicas de<br>
-                                    Telecomunicação
-                                </p>
-                            </div>
-                            <div class="col-md-4 service-box" id="footer-icon">
-                                <a href="goods.html">
-                                    <i class="fa-solid fa-truck-ramp-box"></i>
-                                    <h4>Produtos</h4>
-                                    </a>
-                                <p>Roteadores de tecnologias de conectividade para pessoas,<br>
-                                    infraestrutura dos setores do mercado.
-                                </p>
-                            </div>
-                            <div class="col-md-4 service-box" id="footer-icon">
-                                <a href="shopping.html">
-                                    <i class="fa-solid fa-truck"></i>
-                                    <h4>Carrinho</h4>
-                                </a>
-                                <p>Visualise e finalize<br>
-                                    sus pedidos.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
         </div>
+        <?php echo $footer;?>
     </main>
     <script src="js/scripts.js"></script>
 </body>
